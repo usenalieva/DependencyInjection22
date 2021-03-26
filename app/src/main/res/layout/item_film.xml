@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    android:layout_margin="10dp"
+    android:elevation="15dp">
+
+    <ImageView
+        style="@style/iv_style"
+        android:id="@+id/iv_film"
+        android:src="@drawable/ic_launcher_foreground"
+        android:contentDescription="@string/film_poster" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/btn_addToFav"
+        android:layout_gravity="bottom|end"
+        android:src="@drawable/ic_favorite_default"
+        android:contentDescription="@string/add_to_favorites" />
+
+</androidx.cardview.widget.CardView>

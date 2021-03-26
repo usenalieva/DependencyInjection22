@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">DependencyInjection</string>
+    <string name="project_name">Dependency Injection</string>
+    <string name="home">Home</string>
+    <string name="favorites">Favorites</string>
+    <string name="text">text</string>
+    <string name="people">People</string>
+    <string name="director">Director</string>
+    <string name="producer">Producer</string>
+    <string name="add_to_favorites">Add to Favorites</string>
+    <string name="film_poster">Film Poster</string>
+    <string name="onFailure">\"OnFailure: \"</string>
+</resources>
